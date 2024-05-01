@@ -1,0 +1,40 @@
+
+.pfp{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px  ;
+}
+
+
+.nave{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    gap: 25px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+*{
+    margin: 0px;
+}
+
+.sec1{
+    background-color: antiquewhite;
+}
+
+.J1{
+    display: flex;
+}
+
+.img1{
+    height: 250px;
+    width: auto;
+}
