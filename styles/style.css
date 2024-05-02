@@ -182,10 +182,10 @@ img:hover{
 }
 
 .sec3 {
-    background-image: url('/img/halo-background-x2qfuvd2y8kx0w8e.jpeg');
+    background-image: url(/img/Halo_TMCC_Reach_KeyArt_Vert_Final.0.jpg);
     background-size: cover;
     background-position: center;
-    color: rgb(9, 255, 0);
+    color: rgb(255, 255, 255);
     height: 300px; /* Adjust height as needed */
     display: flex;
     justify-content: center;
@@ -210,4 +210,8 @@ img:hover{
 }
 
 
-
+.by{
+    position: absolute;
+    bottom: 30%;
+    right: 30%
+}
