@@ -1,11 +1,11 @@
 
 .pfp{
-    border-radius: 50%;
     height: 50px;
     width: 50px;
     margin-left: 10px;
     margin-top: 5px;
-    margin-bottom: 5px  ;
+    margin-bottom: 5px;
+    border-radius: 50%;
 }
 
 
@@ -24,17 +24,157 @@
 
 *{
     margin: 0px;
+    text-decoration: none;
+}
+
+a{
+    color: black
 }
 
 .sec1{
-    background-color: antiquewhite;
+    height: 500px;
+    background-color: slategray;
 }
 
 .J1{
     display: flex;
 }
 
+img{
+    transition-duration: 700ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 100ms;
+}
+
+img:hover{
+    box-shadow: 10px 10px 5px rgb(109, 109, 109);
+}
+
 .img1{
     height: 250px;
     width: auto;
+    border-radius: 5%;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+
+
+.all1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 50%;
+    bottom: 60%;
+}
+
+.paragraph1{
+    max-width: 500px;
+    max-height: 200px;
+    font-size: larger;  
+}
+
+.title1{
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+.button1{
+    margin-top: 60px;
+}
+
+.btn1{
+    height: 40px;
+    width: 90px;
+    background-color: rgba(0, 0, 0, 0.29);
+    color:white;
+    font-family: monospace;
+    transition-duration: 700ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.btn1:hover{
+    background-color: rgb(255, 255, 255, 0.29);
+    color:rgba(0, 0, 0)
+
+}
+
+.imgs1{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid gray;
+}
+
+.imgs2{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid gray;
+}
+
+.imgs3{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid gray;
+}
+
+.imgs4{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid gray;
+}
+
+.imgs11{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 30px; 
+    justify-content:space-evenly;
+    margin-top: 100px;
+
+}
+
+
+
+.title2{
+    display:flex;
+    justify-content: center;
+    font-family: monospace;
+    background-color: gray;
+    border: 3px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition-duration: 1000ms;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+
+.title2:hover{
+    background-color: rgba(0, 0, 0, 0.337);
+    border: 3px solid gray;
+    transform: translateY(30px)
+}
+
+.para1{
+    margin-top: 30px;
+}
+
+.para2{
+    margin-top: 30px;
+}
+
+.para3{
+    margin-top: 30px;
+}
+
+.para4{
+    margin-top: 30px;
 }
