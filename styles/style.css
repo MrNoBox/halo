@@ -181,37 +181,3 @@ img:hover{
     margin-top: 30px;
 }
 
-.sec3 {
-    background-image: url(/img/Halo_TMCC_Reach_KeyArt_Vert_Final.0.jpg);
-    background-size: cover;
-    background-position: center;
-    color: rgb(255, 255, 255);
-    height: 300px; /* Adjust height as needed */
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 56%;
-    height: 500px;
-    width: 1500px;
-    transition-duration: 1000ms;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-}
-
-.sec3:hover{
-    transform: translateY(500px);
-}
-
-.quote {
-    font-size: 2em; /* Adjust font size as needed */
-    font-weight: bold; /* Adjust font weight as needed */
-    text-shadow: 2px 2px 4px rgba(0, 87, 35, 0.5); /* Add a text shadow for better readability */
-    padding-top: 250px;
-}
-
-
-.by{
-    position: absolute;
-    bottom: 30%;
-    right: 30%;
-}
