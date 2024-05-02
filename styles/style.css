@@ -68,6 +68,7 @@ img:hover{
     position: absolute;
     right: 50%;
     bottom: 60%;
+    flex: 1;
 }
 
 .paragraph1{
@@ -139,7 +140,7 @@ img:hover{
     gap: 30px; 
     justify-content:space-evenly;
     margin-top: 100px;
-
+    align-items:center;
 }
 
 
@@ -150,17 +151,18 @@ img:hover{
     font-family: monospace;
     background-color: gray;
     border: 3px solid black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition-duration: 1000ms;
     transition-property: all;
     transition-timing-function: ease-in;
+    align-items: center; 
 }
+
 
 .title2:hover{
     background-color: rgba(0, 0, 0, 0.337);
     border: 3px solid gray;
-    transform: translateY(30px);
 }
 
 .para1{
@@ -178,3 +180,34 @@ img:hover{
 .para4{
     margin-top: 30px;
 }
+
+.sec3 {
+    background-image: url('/img/halo-background-x2qfuvd2y8kx0w8e.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(9, 255, 0);
+    height: 300px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 56%;
+    height: 500px;
+    width: 1500px;
+    transition-duration: 1000ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.sec3:hover{
+    transform: translateY(500px);
+}
+
+.quote {
+    font-size: 2em; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    text-shadow: 2px 2px 4px rgba(0, 87, 35, 0.5); /* Add a text shadow for better readability */
+    padding-top: 250px;
+}
+
+
+
