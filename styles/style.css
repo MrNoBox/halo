@@ -160,7 +160,7 @@ img:hover{
 .title2:hover{
     background-color: rgba(0, 0, 0, 0.337);
     border: 3px solid gray;
-    transform: translateY(30px)
+    transform: translateY(30px);
 }
 
 .para1{
